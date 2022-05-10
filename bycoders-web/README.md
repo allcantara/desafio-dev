@@ -1,6 +1,6 @@
 # Configuração do projeto ReactJS
 
-Este projeto não precisa de configuração antes de executar o Docker Compose. Mas a seguir teremos as instruções para execução individual do projeto.
+Mas a seguir teremos as instruções para execução individual do projeto.
 
 ## Scripts
 

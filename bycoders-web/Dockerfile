@@ -1,9 +1,11 @@
-FROM node:16
+FROM node:17
 
 WORKDIR /bycoders/web
 
-COPY ./package.json /bycoders/web
-COPY ./package-lock.json /bycoders/web
+ENV PATH /bycoders/web/node_modules/.bin:$PATH
+
+COPY package.json /bycoders/web
+COPY package-lock.json /bycoders/web
 RUN npm install
 
 COPY . /bycoders/web
