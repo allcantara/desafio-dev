@@ -1,9 +1,9 @@
 package com.bycoders.domain.entities.implementations;
 
+import java.util.UUID;
+
 import com.bycoders.domain.entities.IStore;
 import com.bycoders.domain.entities.IUser;
-
-import java.util.UUID;
 
 public class CommonStore implements IStore {
     private UUID id;

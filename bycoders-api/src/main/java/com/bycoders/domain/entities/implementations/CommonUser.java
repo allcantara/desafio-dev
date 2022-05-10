@@ -1,9 +1,9 @@
 package com.bycoders.domain.entities.implementations;
 
+import java.util.UUID;
+
 import com.bycoders.domain.entities.IUser;
 import com.bycoders.domain.entities.implementations.enummeration.UserEnum;
-
-import java.util.UUID;
 
 public class CommonUser implements IUser {
     private UUID id;

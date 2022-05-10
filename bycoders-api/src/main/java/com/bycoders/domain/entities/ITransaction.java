@@ -1,9 +1,9 @@
 package com.bycoders.domain.entities;
 
-import com.bycoders.domain.entities.implementations.enummeration.TransactionTypeEnum;
-
 import java.util.Date;
 import java.util.UUID;
+
+import com.bycoders.domain.entities.implementations.enummeration.TransactionTypeEnum;
 
 public interface ITransaction {
     UUID getId();

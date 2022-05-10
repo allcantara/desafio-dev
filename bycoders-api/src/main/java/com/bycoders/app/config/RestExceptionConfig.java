@@ -1,6 +1,15 @@
 package com.bycoders.app.config;
 
-import com.bycoders.app.utils.exception.*;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+
+import com.bycoders.app.utils.exception.ByCodersAppException;
+import com.bycoders.app.utils.exception.ErrorDetails;
+import com.bycoders.app.utils.exception.ForbiddenException;
+import com.bycoders.app.utils.exception.InternalErrorException;
+import com.bycoders.app.utils.exception.NotFoundException;
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,9 +17,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import javax.servlet.ServletException;
-import java.util.Date;
 
 @ControllerAdvice
 public class RestExceptionConfig extends ResponseEntityExceptionHandler {

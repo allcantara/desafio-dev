@@ -1,10 +1,11 @@
 package com.bycoders.app.utils.exception;
 
-import lombok.AllArgsConstructor;
+import java.io.Serial;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import java.io.Serial;
+import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ResponseStatus(HttpStatus.FORBIDDEN)

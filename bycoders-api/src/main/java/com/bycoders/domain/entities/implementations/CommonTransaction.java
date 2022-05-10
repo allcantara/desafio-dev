@@ -1,13 +1,11 @@
 package com.bycoders.domain.entities.implementations;
 
+import java.util.Date;
+import java.util.UUID;
+
 import com.bycoders.domain.entities.IStore;
 import com.bycoders.domain.entities.ITransaction;
 import com.bycoders.domain.entities.implementations.enummeration.TransactionTypeEnum;
-import com.bycoders.domain.entities.implementations.enummeration.UserEnum;
-
-import java.util.Calendar;
-import java.util.Date;
-import java.util.UUID;
 
 public class CommonTransaction implements ITransaction {
 

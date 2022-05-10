@@ -1,11 +1,11 @@
 package com.bycoders.domain.factory.implementations;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.bycoders.domain.entities.IOperation;
 import com.bycoders.domain.entities.implementations.enummeration.CommonOperation;
 import com.bycoders.domain.factory.IOperationFactory;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class CommonOperationFactory implements IOperationFactory {
 
