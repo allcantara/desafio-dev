@@ -22,7 +22,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./bycoders-api/target/bycoders-0.0.1-SNAPSHOT.jar:/app/api/api.jar
+      - ./bycoders-api/target/bycoders-0.0.1-SNAPSHOT.jar:/bycoders/api/api.jar
 
   web:
     container_name: web
@@ -32,7 +32,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./bycoders-web:/app/web
+      - ./bycoders-web:/bycoders/web
 
 volumes:
   postgresql_data:

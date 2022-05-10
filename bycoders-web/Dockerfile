@@ -1,11 +1,12 @@
 FROM node:16
 
-WORKDIR /app/web
+WORKDIR /bycoders/web
 
-COPY package*.json /app/web
+COPY ./package.json /bycoders/web
+COPY ./package-lock.json /bycoders/web
 RUN npm install
 
-COPY . /app/web
+COPY . /bycoders/web
 
 EXPOSE 3000
 

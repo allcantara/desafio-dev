@@ -1,8 +1,8 @@
 FROM openjdk:17
 
-WORKDIR /app/api
+WORKDIR /bycoders/api
 
-COPY target/bycoders-0.0.1-SNAPSHOT.jar /app/api/api.jar
+COPY target/bycoders-0.0.1-SNAPSHOT.jar /bycoders/api/api.jar
 
 EXPOSE 8080
 
